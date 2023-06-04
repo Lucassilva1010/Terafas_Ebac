@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+ 
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body >header{
+    background-color: black;
+    padding: 16px 0;
+}
+header a, h1{
+    color:aliceblue;
+    margin-left: 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+header li{
+ display: inline-flex ;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;
+}
+.articles article {
+    width: 30%;
+}
+.articles article p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, sans-serif;
+}
+section{
+    margin: 16px 0;
+}
+section h1,article{
+    margin-bottom: 16px;
+}
+section h1{
+    font-size: 32px;
+    color: brown;
+    
+}
+
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.articles article a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#esportes{
+    background-color: bisque;
+}
+#economia{
+    background-color: beige;
+}
+#tecnologia{
+    background-color: aquamarine;
+}
+#tecnologia  h1{
+    
+    color: rgb(112, 104, 33);
+}
+#politica{
+    background-color: rgb(127, 214, 255);
+    
+}
+#politica h1{
+   color: rgb(110, 67, 15);
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+
