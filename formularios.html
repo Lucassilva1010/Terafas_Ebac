@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aula formularios</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="nome">Nome</label>
+                <input id="nome" type="Nome" placeholder="Seu Nome">
+
+            </form>
+        </section>
+
+        <section>
+            <h1> Fomularios com seletores</h1>
+            <form>
+                <label for="info"> Numeros: </label>
+                <input id="info" type="number" max="20" min="1">
+            </form>
+        </section>
+        <br>
+        <br>
+        <section>
+            <h1>Formularios para adicionar arquivos</h1>
+            <form>
+                <label for="arquivo">Clique aqui para adicionar seu arquivo</label><br>
+                <input type="file">
+            </form>
+        </section>
+        <br>
+        <section>
+            <h1>Formularios para selecionar cores</h1>
+            <form>
+                <label for="arquivo">Clique aqui para selecionar sua cor preferida</label><br>
+                <input type="color">
+            </form>
+        </section>
+        <section>
+            <h1>Trabalhando com CheckBox</h1>
+            <caption>Exemplo para ser utilizado em Termos de usos </caption>
+            <table>
+                <tr>
+                    <th><b>Nome </b></th>
+                    <th><b> Aceito</b></th>
+                </tr>
+
+                <tr>
+                    <td>Lucas</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Antonella</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Anastacia</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Deixe aqui o seu comentario</h2>
+            <textarea placeholder="Comente aqui" name="comentario"  cols="30" rows="5" >
+
+            </textarea>
+            <br>
+            <button type="submit">Enviar </button> 
+             <button type="reset">Limpar</button>
+        </section>
+    </main>
+</body>
+
+</html>
