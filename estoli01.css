@@ -67,13 +67,13 @@ section h1{
 }
 
 .articles article a{
-    background-color: black;
+   
     color: aliceblue;
     padding: 8px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .articles article a:hover{
     text-decoration: underline;
@@ -83,11 +83,28 @@ section h1{
 #esportes{
     background-color: bisque;
 }
+
+.articles article .esport a{
+   
+    font-size: 22px;
+    background-color: brown;
+}
+
 #economia{
     background-color: beige;
 }
+.articles article .economic a{
+   
+    font-size: 22px;
+    background-color: rgb(21, 3, 3);
+}
 #tecnologia{
     background-color: aquamarine;
+}
+.articles article .tec a{
+   
+    font-size: 22px;
+    background-color: rgb(194, 156, 22);
 }
 #tecnologia  h1{
     
@@ -96,6 +113,11 @@ section h1{
 #politica{
     background-color: rgb(127, 214, 255);
     
+}
+.articles article .polit a{
+   
+    font-size: 22px;
+    background-color: rgb(15, 170, 23);
 }
 #politica h1{
    color: rgb(110, 67, 15);
