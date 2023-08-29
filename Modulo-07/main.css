@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+
+input,
+textarea,
+button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+
+}
+
+button {
+    background-color: green;
+    border: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+.success-mensage {
+
+    background-color: #27ae60;
+    padding: 16px;
+    color: aliceblue;
+    display: none;
+}
+
+.erro-nome {
+    background-color: red;
+    padding: 8px;
+    color: aliceblue;
+    font-size: 12px;
+    margin-bottom:8px ;
+    display: none;
+}
+
+/* Esse campo vai ser chamado no JS */
+input.error{
+    color: red;
+    border-color: red;
+}
