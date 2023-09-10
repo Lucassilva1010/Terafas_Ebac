@@ -22,8 +22,8 @@
             <input type="number" required placeholder="Nota Atividade" max="10" min="0" />
             <button type="submit">Adicionar +</button>
         </form>
-        <table>
-    
+        <!-- Remove o espaço das bordas entre as tabelas -> Cellspacing -->
+        <table cellspacing="0"> 
             <thead>
                 <tr>
                     <th>Nome da Atividade</th>
@@ -42,7 +42,7 @@
                 <tr>
                     <td>Média Final</td>
                     <td>7</td>
-                    <td>Aprovado</td>
+                    <td><span class="resultado">Aprovado</span></td>
                 </tr>
             </tfoot>
         </table>
