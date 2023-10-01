@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto,sans-serif;
+}
+header{
+    background-color: #5f27cd;
+    padding: 16px 0px;
+    color: white;
+    display: flex;
+    border-bottom: 16px solid  #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+header button{
+    margin-left: 16px;
+}
+
+form{
+    background-color: rgb(140, 194, 196);
+    padding: 24px;
+    text-align: center;
+    display: none;
+}
+
+input,button{
+    padding: 8px;
+}
+
+button{
+    background-color: rgb(31, 114, 49);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#btn-cancelar{
+    background-color: red;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+ul li img{
+    width: 100%;
+}
+
+.overlay-img-link{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    opacity: 0; /* Isso faz sumir o texto da imagem */
+    transition: all ease .5s; /* Isso causa um Delay no texto da imagem */
+
+}
+.overlay-img-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul li:hover .overlay-img-link {
+opacity: 1;
+}
